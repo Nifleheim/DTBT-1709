@@ -1,3 +1,5 @@
+This Repositories refer to https://github.com/Nifleheim/cilist
+
 # Step by Step:
 1. Fill Region Name, Access Key and Secret Key with Your own Configuration.
 2. Make sure the VM IP for React App Backend URL and RDS Endpoint for DB Host.
