@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  back:
+    image: ikanpaus/backend:v1
+    ports:
+      - 5500:5000
+    environment:
+      DATABASE_USERNAME: "DB_USER_MASTER"
+      DATABASE_PASSWORD: "DB_PASSWORD_MASTER"
+      DATABASE_DATABASE: "DB_NAME" 
+      DATABASE_HOST: "DB_HOST/RDS_ENDPOINT"
+      DATABASE_PORT: 3306
+      BASE_URL_PORT: 5000
