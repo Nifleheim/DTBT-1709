@@ -1,6 +1,6 @@
 ---
 - name: Deployment
-  hosts: bry
+  hosts: master
   become: true
   vars: 
   roles: 
