@@ -1,2 +1,2 @@
 [dev]
-dev0 ansible_host=20.20.20.20 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/key-2.pem
+dev0 ansible_host=20.20.20.22 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/dev-key-5678.pem
