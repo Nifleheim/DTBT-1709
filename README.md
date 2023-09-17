@@ -1,4 +1,4 @@
-This Repositories refer to https://github.com/Nifleheim/cilist
+This Repositories refer to https://github.com/sdcilsy/cilist
 
 # Step by Step:
 1. Fill Region Name, Access Key and Secret Key with Your own Configuration.
