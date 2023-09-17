@@ -5,7 +5,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 cleanWs()
-                git branch: 'master', url: 'https://github.com/Nifleheim/ansible'
+                git branch: 'master', url: 'https://github.com/Nifleheim/DTBT-1709'
             }
         }
         
