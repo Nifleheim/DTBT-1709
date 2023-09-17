@@ -9,17 +9,11 @@ pipeline {
             }
         }
         
-        stage('Update Kube-Config') {
-            steps {
-                sh 'aws eks update-kubeconfig --region ap-southeast-2 --name cilsy-final'
-            }
+        dir('ansible') {
+            ansiblePlaybook disableHostKeyChecking: true, installation: 'ansible1', playbook: 'main.yml'
         }
         
-        stage('Ansible Execute') {
-            steps {
-                ansiblePlaybook disableHostKeyChecking: true, installation: 'ansible1', playbook: 'main.yml'
-            }
-        }
+
     }
 }
 
