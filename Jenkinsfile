@@ -9,7 +9,7 @@ pipeline {
             }
         }
         
-        dir('ansible') {
+        dir('Ansible') {
             ansiblePlaybook disableHostKeyChecking: true, installation: 'ansible1', playbook: 'main.yml'
         }
         
